@@ -1,0 +1,45 @@
+current directory: /vagrant/creep_api/vendor/bundle/ruby/2.3.0/gems/puma-3.6.2/ext/puma_http11
+/home/vagrant/.rbenv/versions/2.3.3/bin/ruby -r ./siteconf20170114-4093-jtjg94.rb extconf.rb
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... yes
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /vagrant/creep_api/vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0-static/puma-3.6.2/mkmf.log
+
+current directory: /vagrant/creep_api/vendor/bundle/ruby/2.3.0/gems/puma-3.6.2/ext/puma_http11
+make "DESTDIR=" clean
+make: Warning: File `Makefile' has modification time 1.3 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /vagrant/creep_api/vendor/bundle/ruby/2.3.0/gems/puma-3.6.2/ext/puma_http11
+make "DESTDIR="
+make: Warning: File `Makefile' has modification time 1.3 s in the future
+compiling http11_parser.c
+ext/puma_http11/http11_parser.rl: In function 'puma_parser_execute':
+ext/puma_http11/http11_parser.rl:111: warning: comparison between signed and unsigned integer expressions
+compiling io_buffer.c
+compiling mini_ssl.c
+mini_ssl.c: In function 'engine_init_server':
+mini_ssl.c:139: warning: ISO C90 forbids mixed declarations and code
+mini_ssl.c:144: warning: ISO C90 forbids mixed declarations and code
+mini_ssl.c:166: warning: ISO C90 forbids mixed declarations and code
+mini_ssl.c:170: warning: ISO C90 forbids mixed declarations and code
+mini_ssl.c: In function 'engine_shutdown':
+mini_ssl.c:333: warning: unused variable 'buf'
+mini_ssl.c:332: warning: unused variable 'err'
+mini_ssl.c: In function 'engine_init':
+mini_ssl.c:350: warning: unused variable 'buf'
+mini_ssl.c:349: warning: unused variable 'err'
+mini_ssl.c:349: warning: unused variable 'ok'
+compiling puma_http11.c
+linking shared-object puma/puma_http11.so
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /vagrant/creep_api/vendor/bundle/ruby/2.3.0/gems/puma-3.6.2/ext/puma_http11
+make "DESTDIR=" install
+make: Warning: File `Makefile' has modification time 0.4 s in the future
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20170114-4093-lpqa0u/puma
+make: warning:  Clock skew detected.  Your build may be incomplete.

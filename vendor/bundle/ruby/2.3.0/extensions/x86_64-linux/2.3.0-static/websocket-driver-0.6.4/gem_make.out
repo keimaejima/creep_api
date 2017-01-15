@@ -1,0 +1,17 @@
+current directory: /vagrant/creep_api/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.4/ext/websocket-driver
+/home/vagrant/.rbenv/versions/2.3.3/bin/ruby -r ./siteconf20170114-2832-135df80.rb extconf.rb
+creating Makefile
+
+current directory: /vagrant/creep_api/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.4/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /vagrant/creep_api/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.4/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /vagrant/creep_api/vendor/bundle/ruby/2.3.0/gems/websocket-driver-0.6.4/ext/websocket-driver
+make "DESTDIR=" install
+make: Warning: File `websocket_mask.so' has modification time 0.74 s in the future
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20170114-2832-1iv8hug
+make: warning:  Clock skew detected.  Your build may be incomplete.
